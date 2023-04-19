@@ -1,0 +1,198 @@
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 0.875fr 9fr;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* sidebar  */
+.navbar {
+    height: 100%;
+    background-color: #1f1f1f;
+    position: fixed !important;
+    z-index: 1;
+    /* overflow: auto; */
+}
+.center{
+    text-align: center;
+ font-family: "Montserrat", sans-serif;
+}
+.sidebar {
+    width: 120px;
+    background: #222;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+#abhi{
+    background-color: #000000;
+}
+.navbar a:hover {
+    background-color: #000000;
+}
+
+.navbar img {
+    display: block;
+}
+
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 36px;
+}
+
+.imghome {
+    opacity: 0.5;
+}
+
+.fa-icon {
+    filter: invert(100);
+    width: 50%;
+    height: 50%;
+    padding-top: 10px;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+/* Section*/
+
+.box {
+    padding: 20px;
+
+    margin-top: 20px;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+#home {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px !important;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#home p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(192, 192, 192);
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px 0px;
+    font-weight: 400;
+    color: #f1f1f1 !important;
+}
+
+#name p {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.subskill {
+    margin: 1.5rem 0;
+}
+
+.bar {
+    width: 100%;
+    height: 30px;
+    background-color: #616161 !important;
+    display: grid;
+}
+
+.skills h2 {
+    font-weight: bold;
+    color: #f1f1f1;
+    text-decoration: solid;
+    font-size: 1.5rem;
+
+}
+
+#pbsolving {
+    grid-template-columns: 7fr 3fr;
+}
+
+#coding {
+    grid-template-columns: 8fr 2fr;
+}
+
+#web {
+    grid-template-columns: 9fr 1fr;
+}
+.partners{
+    border: 2px solid white;
+    background-color: white;
+    font-weight: bold;
+    color: #000!important;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+height: 4.5rem;
+}
+.part{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.resume{
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration:solid;
+    width:fit-content;
+    padding: 10px 30px;
+    margin: 30px 0px;
+}
